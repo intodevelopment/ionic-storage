@@ -4,7 +4,7 @@
   "description": "Ionic Storage utility",
   "scripts": {
     "clean": "rimraf dist",
-    "compile": "ng-packagr -p package.json",
+    "compile": "ng-packagr -p ng-package.json",
     "build": "npm run clean && npm run compile",
     "prepublishOnly": "npm run build",
     "cz": "git-cz"
@@ -58,16 +58,6 @@
   "peerDependencies": {
     "@angular/core": "*",
     "rxjs": "*"
-  },
-  "$schema": "./node_modules/ng-packagr/package.schema.json",
-  "ngPackage": {
-    "lib": {
-      "entryFile": "src/index.ts"
-    },
-    "whitelistedNonPeerDependencies": [
-      "localforage",
-      "localforage-cordovasqlitedriver"
-    ]
   },
   "release": {
     "branches": "stable",
