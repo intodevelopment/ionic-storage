@@ -1,6 +1,6 @@
 {
   "name": "@ionic/storage",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "description": "Ionic Storage utility",
   "scripts": {
     "clean": "rimraf dist",
@@ -26,19 +26,19 @@
   },
   "homepage": "https://github.com/ionic-team/ionic-storage#readme",
   "dependencies": {
-    "localforage": "1.7.1",
-    "localforage-cordovasqlitedriver": "1.7.0"
+    "localforage": "1.10.0",
+    "localforage-cordovasqlitedriver": "1.8.0"
   },
   "devDependencies": {
-    "@angular/common": "^9.1.12",
-    "@angular/compiler": "^9.1.12",
-    "@angular/compiler-cli": "^9.1.12",
-    "@angular/core": "^9.1.12",
+    "@angular/common": "^14.0.0",
+    "@angular/compiler": "^14.0.0",
+    "@angular/compiler-cli": "^14.0.0",
+    "@angular/core": "^14.0.0",
     "@semantic-release/changelog": "^5.0.1",
     "@semantic-release/git": "^9.0.0",
     "@semantic-release/github": "^7.0.7",
     "@semantic-release/npm": "^7.0.5",
-    "@types/node": "^12.12.54",
+    "@types/node": "^20.10.5",
     "canonical-path": "0.0.2",
     "commitizen": "^4.1.2",
     "cpr": "^2.0.0",
@@ -46,16 +46,14 @@
     "dgeni": "^0.4.12",
     "dgeni-packages": "^0.28.4",
     "gulp": "^3.9.1",
-    "ng-packagr": "9",
+    "ng-packagr": "14",
     "np": "3.0.4",
     "rimraf": "^2.6.2",
-    "rxjs": "5.5.2",
+    "rxjs": "7.8.1",
     "semantic-release": "^17.1.1",
     "semver": "^5.3.0",
-    "tslint": "^5.10.0",
-    "tslint-ionic-rules": "*",
-    "typescript": "3.8",
-    "zone.js": "~0.10.2"
+    "typescript": "4.8",
+    "zone.js": "~0.12.0"
   },
   "peerDependencies": {
     "@angular/core": "*",
