@@ -12,6 +12,12 @@
     "types": ["node"],
     "rootDir": "src"
   },
+  "angularCompilerOptions": {
+    "enableIvy": false,
+    "skipTemplateCodegen": true,
+    "strictMetadataEmit": true,
+    "enableResourceInlining": true
+  },
   "files": ["src/index.ts"],
   "exclude": ["node_modules", "scripts"]
 }
